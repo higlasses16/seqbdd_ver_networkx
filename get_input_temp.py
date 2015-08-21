@@ -4,6 +4,10 @@
 import codecs,sys,os,glob
 sys.stdout = codecs.getwriter('utf-8')(sys.stdout)
 
+"""
+	ローカルでbncからのテスト用
+"""
+
 def main(target):
 	snt = []
 	files = glob.glob(r'/Users/piranon/Documents/corpus/bnc/raw/*')
